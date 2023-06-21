@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPage5</title>
+</head>
+<body>
+    <h2>Isra' Software & Computer Co.</h2>
+    <p id="Des">Isra Software and Computer Company was established in 1997 in Nablus as a specialized in the production of software at palestine and Arab Countries.</p>
+    <button type="button" onclick="changeTextStyle()">Change Text Style!</button>
+    <div>
+    <img src="images/IsraLogo.png" id="Logo" alt="Logos" style="object-fit: fit; width: 400px; height: 150px;">
+</div>
+    <button type="button" onclick="changeImage(0)">ISCOSOFT</button>
+    <button type="button" onclick="changeImage(1)">GOOGLE</button>
+    <button type="button" onclick="changeImage(2)">MICROSOFT</button>
+    <p>Clicked Button: <span id="Contant">ISCOSOFT</span></p>
+    <script>
+        function changeTextStyle() {
+          document.getElementById("Des").style.fontSize = "25px"; 
+          document.getElementById("Des").style.color = "blue";
+          document.getElementById("Des").style.backgroundColor = "yellow";        
+        }
+        function changeImage(sw) {
+          var pic;
+          var text;
+          if (sw == 0) {
+            pic = "images/IsraLogo.png"
+            text="ISCOSOFT"
+          } else if(sw==1) {
+            pic = "images/GoogleLogo.png"
+            text="GOOGLE"
+          }else{
+            pic="images/MicrosoftLogo.jpg"
+            text="MICROSOFT"
+          }
+          document.getElementById('Logo').src = pic;
+          document.getElementById('Contant').innerHTML=text;
+        }
+        </script>
+</body>
+</html>
