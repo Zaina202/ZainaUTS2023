@@ -19,3 +19,25 @@ No Comment, Perfect.
 
 Task 6 : 
 No Comment, Perfect.
+
+Task 7 : 
+In Arabic, Instead of flipping menu and content, which in responsive makes the menu in the bottom, which is bad user experince.
+just switch all float : left to right
+Otherwise, Perfect.
+
+Task 8 : 
+I Prefer <div> <p></p> <p></p> </div> instead of <div> <br> <br> </div>
+it give us more control of the content and helps in future tasks,
+Excelent Work.
+
+Task 9 :
+Same Notes As Task 7, This one on me, i recorded by mistake that i reviewed task 7 a week ago and thus i was late .
+Perfect work.
+
+Task 10 :
+Same As 7 & 9 , Again, On Me
+No Comment, Perfect.
+
+Task 11 :
+This Is The Defining Work of "Minimum Code"
+MORE THAN PERFECT, Good Job.
