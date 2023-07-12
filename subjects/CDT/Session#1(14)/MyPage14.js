@@ -12,8 +12,8 @@ function logError() {
 
 function logTable() {
     console.table([
-        { Name: 'Zeyad Abed Aljalil'},
-        { Name: 'Ahmad Hanani'},
-        { Name: 'Ahmad Eran'}
+        { Name: 'Zeyad Abed Aljalil',Age: '36',Address:'Nablus, beit dajan'},
+        { Name: 'Ahmad Hanani',Age:'35',Address:'Nablus, beit dajan'},
+        { Name: 'Ahmad Eran' ,Age:'39',Address:'Nablus'}
     ]);
 }
