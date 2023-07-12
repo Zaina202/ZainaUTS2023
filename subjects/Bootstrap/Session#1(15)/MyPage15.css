@@ -1,0 +1,96 @@
+
+:root{
+    --dark-color:rgba(0, 0, 0, .85);
+    --link-color:#999;
+    --hover-link-color:#fff;    
+}
+
+ .container {
+    max-width: 960px;
+  }
+  
+  .main-btn {
+    padding: 0.5rem 1rem;
+    border: 1px solid gray;
+  }
+  .landing{
+    min-height: calc(70vh - 40px);
+   }
+   .landing .text-center{
+    width: 30%;
+   }
+
+  .navbar {
+    background-color: var(--dark-color);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .navbar a {
+    color: var(--link-color);
+    transition: ease-in-out color .15s;
+  }
+  .navbar a:hover {
+    color: var(--hover-link-color);
+    text-decoration: none;
+  }
+  
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -70%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -70%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+
+  .indiv{
+    width: 80%; 
+    height: 300px; 
+    border-radius: 20px 20px 0 0;
+  }
+  
+  /*
+   * Extra utilities
+   */
+  
+  .border-top { border-top: 1px solid #e5e5e5; }
+  .border-bottom { border-bottom: 1px solid #e5e5e5; }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+  
+  .flex-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      -ms-flex: 1;
+      -webkit-box-flex: 1;
+      flex: 1;
+    }
+  }
+  
+  .overflow-hidden { overflow: hidden; } 
