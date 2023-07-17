@@ -1,0 +1,176 @@
+*{
+    font-family: 'Permanent Marker', cursive;
+}
+.authbtn{
+border-color:transparent ;
+font-family: Arial, sans-serif;
+}
+.authbtn:hover{
+    border: 1bx solid lightgrey;
+}
+
+  .search-input{
+    border-radius: 20px;
+    border-color: white;
+
+  }
+  .tip img{
+    width: 50px;
+    height: 50px;
+  }
+  .nav-link{
+    cursor: pointer;
+  }
+.nav-link:hover,:active{
+color: lightgray;
+  }
+  .menu-container{
+    width: 40%;
+    overflow-x: auto;
+    position: relative;
+  }
+  .menu-container::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: transparent; 
+}
+
+.menu-container::-webkit-scrollbar-track {
+    background-color: transparent; 
+}
+  .menu-list {
+    padding: 0; /* Remove default padding */
+    white-space: nowrap; /* Prevent line breaks */
+}
+.menu-list li {
+    flex: 0 0 auto; 
+    margin-right: 10px; 
+}
+.par h3::after{
+    content: '';
+    width: 200px;
+    height: 1px;
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    bottom: -20px;
+    transform: translateX(-50%);
+}
+.box-text{
+    overflow: hidden;
+    height: 250px;
+    
+}
+.box-text p{
+    color: gray;
+}
+.box-text:hover p{
+    color: white;
+}
+.box-image{
+    overflow: hidden;
+    height: 250px;
+    
+}
+.box-text:hover{
+    overflow: hidden;
+    height: 250px;
+    background-color: black!important;
+    color: white!important;
+    
+}
+.box-text h5::after{
+    content: '';
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    background-color: black;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
+}
+.box-text:hover h5::after {
+    background-color: white;
+}
+.box-text:hover button{
+    color: white;
+}
+.box-text button{
+    border: none;
+    color: rgb(170, 10, 10);
+}
+.recipe-img button{
+    border: none;
+}
+.compitetion{
+    background-image: url(../../images/chef.jpg);
+    margin: 0 50px 0 50px;
+    width: calc(100%-100px);
+    height: 500px;
+   
+}
+.compitetion h4::after{
+    content: '';
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    background-color: black;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
+}
+.recipe h6::after{
+    content: '';
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    background-color: black;
+    left: 50%;
+    bottom: -10px;
+    transform: translateX(-50%);
+}
+.compitetion button:active{
+    background-color: black!important;
+}
+.info-list{
+    cursor: pointer;
+}
+.info-list li:hover::after{
+    content: '';
+    width: 40px;
+    height: 2px;
+    position: absolute;
+    background-color: black;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+}
+.recipe{
+    background-image: url(../../images/tomato3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 50px 0 50px;
+    width: calc(100%-100px);
+    height: 500px;
+}
+.recipe-img{
+    background-image: url(../../images/soup2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.winner li:hover{
+    color: darkred;
+}
+
+.tip h3::after{
+    content: '';
+    width: 50px;
+    height: 2px;
+    position: absolute;
+    background-color: black;
+    left: 50%;
+    bottom: -15px;
+    transform: translateX(-50%);
+}
+.recipe .container{
+    max-height:calc(100%-200px) ;
+}

@@ -6,12 +6,280 @@
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/all.min.css">
     <link rel="stylesheet" href="MyPage16.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,500&display=swap" rel="stylesheet">
     <title>My Page16</title>
 </head>
-<body>
+<body class="bg-black ">
     
+<header class="me-5">
+    <div class="pagetop ">
+        <div class="signbtns pt-2 d-flex justify-content-end pe-5">
+        <button class="authbtn text-white-50 bg-transparent fs-6">Login</button>
+        <button class="authbtn text-white-50 bg-transparent fs-6">Register</button>
+    </div>
+    </div>
+    <nav class="navbar navbar-expand-lg text-white pe-5 me-5">
+        <div class="container ">
+          <button class="navbar-toggler border-white " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars" style="color: #c2c2c2;"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mb-2 mb-lg-0 me-auto ms-auto">
+              <li class="nav-item ps-3 pe-3">
+                  <a class="nav-link text-white" href="#">HOME</a>
+              </li>
+                <li class="nav-item ps-3 pe-3">
+                  <a class="nav-link text-white" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item ps-3 pe-3 dropdown">
+                <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    RECIPES
+                </a>
+                <ul class="dropdown-menu bg-black text-white p-3">
+                  <li><a class="dropdown-item" href="#">APPITIZERS</a></li>
+                  <li><hr class="dropdown-divider bg-white"></li>
+                  <li><a class="dropdown-item" href="#">DESERT</a></li>
+                  <li><hr class="dropdown-divider bg-white"></li>
+                  <li><a class="dropdown-item" href="#">EGGS</a></li>
+                  <li><hr class="dropdown-divider bg-white"></li>
+                  <li><a class="dropdown-item" href="#">FISH</a></li>
+                  <li><hr class="dropdown-divider bg-white"></li>
+                  <li><a class="dropdown-item" href="#">MAIN</a></li>
+                  <li><hr class="dropdown-divider bg-white"></li>
+                  <li><a class="dropdown-item" href="#">PIZZA</a></li>
+                  <li><hr class="dropdown-divider bg-white"></li>
+                  <li><a class="dropdown-item" href="#">SALAD</a></li>
+                  <li><hr class="dropdown-divider bg-white"></li>
+                  <li><a class="dropdown-item" href="#">SNACK</a></li>
+                </ul>
+              </li>
+              <li class="nav-item ps-3 pe-3">
+                  <a class="nav-link text-white" href="#">FEEDBACK</a>
+              </li>
+  
+                  <a class="navbar-brand d-none d-lg-block" href="#">
+                    <img src="../../images/fries1.png" alt="fries" width="50px" height="60px">
+                  </a>
+              
+              <li class="nav-item ps-3 pe-3">
+                  <a class="nav-link text-white" href="#">FAQ</a>
+              </li>
+              <li class="nav-item ps-3 pe-3">
+                  <a class="nav-link text-white" href="#">CONTACT US</a>
+              </li>
+              
+              </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="search d-flex justify-content-center align-items-center mt-4 ms-2">
+        <input class="search-input  mb-3 ps-2  ms-5 me-lg-0 ms-lg-0" type="search" placeholder="Search" name="gsearch">
+        <span class="ps-4 pe-4 pb-2 d-none d-lg-block">or</span>
+        <div class="menu-container">
+            <ul class="menu-list d-none d-lg-flex list-unstyled  justify-content-center align-items-center ms-5  mb-lg-0 ">
+                <li class="d-flex ps-5 pe-3">
+                    <i class="fa-solid fa-french-fries" style="color: #ffffff;"></i>
+                    <a class="nav-link text-white " href="#">APPITIZERS</a>
+                </li>
+                <li class="d-flex ps-3 pe-3">
+                    <i class="fa-solid fa-cake me-1 pt-1" style="color: #ffffff;"></i>                    
+                    <a class="nav-link text-white " href="#">DESERT</a>
+                </li>
+                <li class="d-flex ps-3 pe-3">
+                    <i class="fa-solid fa-egg me-1 pt-1" style="color: #ffffff;"></i>                    
+                    <a class="nav-link text-white " href="#">EGGS</a>
+                </li>
+                <li class="d-flex ps-3 pe-3">
+                    <i class="fa-solid fa-fish me-1 pt-1" style="color: #ffffff;"></i>                    
+                    <a class="nav-link text-white " href="#">FISH</a>
+                </li>
+                <li class="d-flex ps-3 pe-3">
+                    <i class="fa-solid fa-fork me-1 pt-1" style="color: #ffffff;"></i>                    
+                    <a class="nav-link text-white " href="#">MAIN</a>
+                </li>
+                <li class="d-flex ps-3 pe-3">
+                    <i class="fa-solid fa-pizza-slice me-1 pt-1" style="color: #ffffff;"></i>                    
+                    <a class="nav-link text-white " href="#">PIZZA</a>
+                </li>
+                <li class="d-flex ps-3 pe-3">
+                    <i class="fa-solid fa-tomato me-1 pt-1" style="color: #ffffff;"></i>                    
+                    <a class="nav-link text-white " href="#">SALAD</a>
+                </li>
+                <li class="d-flex ps-3 pe-3">
+                    <i class="fa-solid fa-snack me-1 pt-1" style="color: #ffffff;"></i>                    
+                    <a class="nav-link text-white " href="#">SNACK</a>
+                </li>
+            </ul>
+        </div>
+      </div>
+</header>
+<div class="landing">
+    <div class="gif d-flex justify-content-center align-items-center" >
+<img src="../../images/cooking2.gif" width="80%" height="300px" >
+</div>
+<div class="par text-center mt-5 mb-5">
+    <h3 class="position-relative text-white fw-bold">MOST EXPLOSIVE RECIPES AT RDINNERMITE</h3>
+</div>
+<div class="boxes row p-5 m-5 text-center ">
+    <div class="col-md-4 col-lg-3">
+        <div class="box-image rounded m-2">
+            <img src="../../images/fish1.jpg" alt="fish" width="100%" height="100%" class="rounded img-fuild">
+        </div>
+    </div>
+    <div class="col-md-4 col-lg-3 ">
+        <div class="box-text rounded bg-white p-2 m-2">
+            <div class="rounded  border border-2 p-2 h-100 pt-4">
+                <h5 class="position-relative fw-bold ">GRILLED FISH</h5>
+                <p class=" mt-4">Change the traditional way to cook fish. Grill it to get the maximum benefits from this super food.</p>
+                <button class=" bg-transparent fw-bold">Read More</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 col-lg-3 ">
+        <div class="box-image rounded m-2">
+            <img src="../../images/smoothie1.jpg" alt="smoothi" width="100%" height="100%" class="rounded img-fuild ">
+        </div>
+    </div>
+    <div class="col-md-4 col-lg-3 ">
+        <div class="box-text rounded bg-white p-2 m-2">
+            <div class="rounded  border border-2 p-2 h-100 pt-4">
+                <h5 class="position-relative fw-bold">PB J SMOOTHIE</h5>
+                <p class=" mt-4">I made this smoothie with peanut butter but it can be made with powdead peanut butter for a lower.</p>
+                <button class=" bg-transparent fw-bold">Read More</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 col-lg-3 ">
+        <div class="box-text rounded bg-white p-2 m-2">
+            <div class="rounded  border border-2 p-2 h-100 pt-4">
+                <h5 class="position-relative fw-bold">SEEAME HONEY FUDGE</h5>
+                <p class=" mt-4">Sesame Honey Fudge is a Middle Eastern treat made with tahini.</p>
+                <button class=" bg-transparent fw-bold">Read More</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 col-lg-3 ">
+        <div class="box-image rounded m-2">
+            <img src="../../images/fudge.webp" alt="fudge" width="100%" height="100%" class="rounded img-fuild">
+        </div>
+    </div>
+    <div class="col-md-4 col-lg-3 ">
+        <div class="box-text rounded bg-white p-2 m-2">
+            <div class="rounded  border border-2 p-2 h-100 pt-4">
+                <h5 class="position-relative fw-bold">CHINESE SOUP</h5>
+                <p class=" mt-4">A Chinese soup that's healthy and delecious and it is also prepared easily.</p>
+                <button class=" bg-transparent fw-bold">Read More</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4 col-lg-3 ">
+        <div class="box-image rounded m-2">
+            <img src="../../images/soup3.jpg" alt="soup" width="100%" height="100%" class="rounded img-fuild ">
+        </div>
+    </div>
+    </div>
 
-    
+</div>
+</div>
+<div class="compitetion  p-5 container-fluid">
+    <div class="participat-box bg-white p-2 w-25  mh-100 mw-md-50 ms-5 rounded ">
+        <div class="rounded  border border-2 mh-50  text-center p-3">
+            <h4 class="text-black">Open Contest</h4>
+            <h4 class="position-relative text-black fw-bold">COOKI COMPETETION</h4>
+            <i class="fa-solid fa-seedling my-4" style="color: #000000; "></i>
+            <p class="text-black-50">Its Cookie Time, Get The Cookie Monster out of you, and send us the best cookie recipe you know.
+                no rules. no specilic types. COOOKIES</p>
+            <button class="text-danger bg-white border border-dark rounded-pill fw-bold">Participate</button>
+        </div>
+    </div>
+</div>
+<div class="landing2 ">
+    <div class="par text-center mt-5 text-white">
+        <h3 class="position-relative mb-5">Latest News</h3>
+        <h4 class="fw-bold mb-5">COMPETETION WINNER</h4>
+    </div>
+    <div class="row winner rounded bg-white d-flex justify-content-center align-items-center w-75 me-auto ms-auto">
+            <img src="../../images/pizza2.jpg" width="100%" height="100%" class="col-8 img-fuild">
+        <div class="col-4 ">
+            <h3 class="text-danger">BRICK-OVEN PIZZA</h3>
+            <ul class="info-list list-unstyled me-auto my-4 d-flex text-black">
+                <li class="position-relative d-flex ps-3 pe-3">
+                    <i class="fa-solid fa-user pt-1 pe-1" style="color: #000000;"></i>
+                    Amr
+                </li>
+                <li class="position-relative d-flex ps-3 pe-3">
+                    <i class="fa-solid fa-chart-column pt-1 pe-1" style="color: #000000;"></i>
+                    Hard
+                </li>
+                <li class="position-relative d-flex ps-3 pe-3">
+                    <i class="fa-solid fa-clock pt-1 pe-1" style="color: #000000;"></i>
+                    10 min
+                </li>
+            </ul>
+            <p class="text-black-50">This simple brick-oven pizza recipe has been made Itamous by several well-known. Brooklyn wood-fire pizzerias Best accompanied by ce cold, Coke</p>
+        </div>
+    </div>
+    <div class="recipe w-100 my-5 d-flex justify-content-center align-items-center  ms-5 ">
+        <div class="container row h-75 mb-5">
+            <div class=" col-lg-8">
+                <div class="recipe-img  h-75  d-flex align-items-center ">
+                    <div class="bg-white p-2 w-50 ms-4">
+                        <div class="border border-2 text-center p-4 ">
+                            <h5 class="bg-black text-white me-3 ms-3 fw-bold">Recipe Of The Day</h5>
+                            <h6 class="text-danger position-relative">Chinese Soup</h6>
+                            <p class="text-black-50 mt-3">A Chinese soup that's healthy and delecious and it is also prepared easily.</p>
+                            <button class="text-black bg-transparent fw-bold">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-lg-4">
+                <div class="tip bg-white h-75  p-3  overflow-auto">
+                    <h3 class="position-relative text-center">Tips</h3>
+                    <div class="bg-gray  p-2 ">
+                        <div class="bg-light border w-50 border-2 p-2 me-auto ms-auto mb-4">
+                            <button class="bg-black text-white w-100 text-center me-auto ms-auto ">Add Tips</button>
+                        </div>
+                        <ul class="list-unstyled options text-uppercase text-danger">
+                            <li class="border-bottom my-3 p-2 d-flex" >
+                                <img src="../../images/burgar.jpg" alt="burgar" class="me-2">
+                                How to make burger
+                            </li>
+                            <li class="border-bottom my-3 p-2 d-flex">
+                                <img src="../../images/cookies.jpg" alt="cookie" class="me-2">
+                                How to decorate cookies
+                            </li>
+                            <li class="border-bottom my-3 p-2 d-flex">
+                                <img src="../../images/cake.jpg" alt="cake" class="me-2">
+                                How to cut cake
+                            </li>
+                            <li class="border-bottom my-3 p-2 d-flex">
+                                <img src="../../images/Onions.webp" alt="onione" class="me-2">
+                                stop crying while cutting onions
+                            </li>
+                            <li class="border-bottom my-3 p-2 d-flex">
+                                <img src="../../images/bananas.jpg" alt="bananas" class="me-2">
+                                Banana ripe fast?
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+    <div class="text-center">
+        <img src="../../images/fries1.png" alt="fries" width="100px" height="110px" class="my-5">
+        <p class="text-white">Dinnermite:Food that will make you Blow !<br>
+            This Website was made by Amr Kurdi and Zaid Balout as a project for Web Programming course
+        </p>
+    </div>
+</footer>
+
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/all.min.js"></script>
 </body>
