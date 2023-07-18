@@ -1,0 +1,22 @@
+.button {
+    background-color: rgb(224, 224, 224);
+    border: 1px solid rgb(133, 134, 148); 
+
+    color: #000;
+    font-size: 24px;
+    height: 80px;
+    width: 25%;
+  }
+  
+  .orange-button {
+    background-color: rgb(245, 146, 62);
+  }
+  
+  .button:nth-child(4n) {
+    border-right: none; 
+  }
+  
+  .button:active {
+    background-color: rgb(133, 134, 148);
+  }
+  
