@@ -8,11 +8,9 @@ const App = () => {
   const handleClick = (buttonName) => {
     switch (buttonName) {
       case 'AC':
-        // Clear the result
         setResult('');
         break;
       case '+/-':
-        // Toggle the sign of the number
         setResult((prevResult) => {
           if (prevResult !== '') {
             const parsedResult = parseFloat(prevResult);
@@ -23,15 +21,12 @@ const App = () => {
         break;
       case '=':
         try {
-          // Evaluate the expression and update the result
           setResult(eval(result));
         } catch (error) {
-          // Handle any errors during evaluation
           setResult('Error');
         }
         break;
       default:
-        // Append the clicked button value to the result
         setResult((prevResult) => prevResult + buttonName);
         break;
     }
