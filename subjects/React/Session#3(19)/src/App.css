@@ -36,17 +36,3 @@
     transform: rotate(360deg);
   }
 }
-* {
-  text-align: left;
-}
-.table-bordered {
-  border: 1px solid;
-  border-collapse: collapse;
-  width: 100%;
-}
-
-.table-bordered th,
-.table-bordered td {
-  border: 1px solid;
-}
-
