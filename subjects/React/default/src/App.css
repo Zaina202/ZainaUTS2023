@@ -1,0 +1,32 @@
+.app-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.default-persons,
+.props-persons {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.default-persons {
+  margin-right: 10px;
+}
+
+.props-persons {
+  margin-left: 10px;
+}
+
+.default-persons h3,
+.props-persons h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 8px 0; 
+  border: 1px solid #ccc; 
+}
+
+.default-persons div,
+.props-persons div {
+  margin-bottom: 20px;
+}
