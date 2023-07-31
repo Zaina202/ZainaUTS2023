@@ -76,6 +76,33 @@ always remember to add app.js so i can test your work
 i tested this one dont worry about it
 Perfect.
 
+Task 20 :
+No Comment, Perfect.
+
+Task 21 :
+Good Idea with the reset button
+No Comment, Perfect.
+
+Task 22 :
+No Comment, Perfect.
+
+Task 23:
+You're the only one who got the design right,
+although missed some details at validation,
+we wanted to check that name doesn't contain characters,
+email has the right form eg. name@domain.dns
+password is strong
+Good Job
+
+Task 24 : 
+No Comment, Perfect.
+
+Task 25 :
+No Comment, Perfect.
+
+I Have finished giving feedback for your work
+your overall performance was perfect.
+soon i will add your mark
 
 
 
